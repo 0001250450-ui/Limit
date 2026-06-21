@@ -1,3 +1,9 @@
+CREATE TABLE tabela (
+    OrderID INT,
+    Quantity INT,
+    ProductID INT,
+    OrderDetailID INT
+);
 --Exercício 1
 SELECT * FROM tabela 
 LIMIT 5;
